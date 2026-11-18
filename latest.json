@@ -1,0 +1,7 @@
+{
+  "version": "1.2.2",
+  "apkSize": 23780358,
+  "apkUrl": "https://wanxiang-update-1301089804.cos.ap-guangzhou.myqcloud.com/wanxiang-1.2.2-arm64.apk.bin",
+  "apkUrlGithub": "https://github.com/xiaomoyan66-tech/TianYan-WanXiang-Releases/releases/download/v1.2.2/wanxiang-1.2.2-arm64.apk",
+  "changelog": "## v1.2.2 · <dim>2026.11.18</dim>\n\n- 内容与 v1.2.1 相同；本版本用于验证应用内更新流程（发现新版 → 下载 → 覆盖安装）。\n\n## v1.2.1 · <dim>2026.11.18</dim>\n\n### 修复\n- **存档体积异常膨胀**：此前连续游玩十几个回合后存档可达数百兆，引发保存失败（Out of Memory）、界面未响应与闪退。\n- 已膨胀的旧存档在读取时自动清理，恢复正常体积；剧情、人物、手机消息不受影响。\n- 自动存档改为后台写入，不再阻塞游戏画面。\n\n### 新增\n- **更新检测**：进入首页时自动检查新版本；设置-关于新增「检查更新」。\n- **更新渠道可选**：国内节点或 GitHub，首次检查时选择，设置-关于可随时切换；只走所选渠道。\n- 发现新版本时展示更新内容，可选立即更新、暂不更新、不再提醒此版本。\n- 支持应用内下载与覆盖安装，无需卸载，存档与设置保留。"
+}
